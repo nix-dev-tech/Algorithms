@@ -35,7 +35,7 @@ void InsertionSort(vector<int>& nums, bool desc = false){
 
 int main()
 {
-    vector<int>nums{7,4,6,2,1,3};
+    vector<int>nums{7,4,6,2,1,3,9,11,24,15,5,10,8,14};
     //ascending order
     InsertionSort(nums);
     for(auto num : nums){
